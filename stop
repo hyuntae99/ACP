@@ -1,0 +1,20 @@
+[0;1;32m●[0m cron.service - Regular background program processing daemon
+     Loaded: loaded (/lib/systemd/system/cron.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sun 2023-03-26 11:27:00 JST; 40min ago
+       Docs: man:cron(8)
+   Main PID: 2149 (cron)
+      Tasks: 1 (limit: 1149)
+     Memory: 6.0M
+     CGroup: /system.slice/cron.service
+             └─2149 /usr/sbin/cron -f
+
+Mar 26 12:07:01 instance-9 CRON[2806]: pam_unix(cron:session): session opened for user hyuntae9912 by (uid=0)
+Mar 26 12:07:01 instance-9 CRON[2804]: pam_unix(cron:session): session opened for user hyuntae9912 by (uid=0)
+Mar 26 12:07:01 instance-9 CRON[2808]: (hyuntae9912) CMD (/home/hyuntae9912/autoCommit/ACP/commit.sh)
+Mar 26 12:07:01 instance-9 CRON[2809]: (hyuntae9912) CMD (echo "cron works1" >> /home/hyuntae9912/autoCommit/ACP/test2.txt)
+Mar 26 12:07:01 instance-9 CRON[2810]: (hyuntae9912) CMD (echo "cron works2" >> /home/hyuntae9912/autoCommit/ACP/test2.txt)
+Mar 26 12:07:01 instance-9 CRON[2806]: pam_unix(cron:session): session closed for user hyuntae9912
+Mar 26 12:07:01 instance-9 CRON[2804]: pam_unix(cron:session): session closed for user hyuntae9912
+Mar 26 12:07:01 instance-9 CRON[2803]: pam_unix(cron:session): session closed for user hyuntae9912
+Mar 26 12:07:02 instance-9 CRON[2805]: (CRON) info (No MTA installed, discarding output)
+Mar 26 12:07:02 instance-9 CRON[2805]: pam_unix(cron:session): session closed for user hyuntae9912
