@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/hyuntae9912/autoCommit/ACP
+cd /home/hyunntae9912/autoCommit/ACP
 
 git pull origin main
 git add .
